@@ -1,0 +1,37 @@
+2023-06-07 13:22:57.366 [info] 
+
+
+
+
+2023-06-07 13:22:57.424 [info] Extension host agent started.
+2023-06-07 13:22:57.659 [info] [127.0.0.1][8e6caa08][ManagementConnection] New connection established.
+2023-06-07 13:22:57.803 [info] [127.0.0.1][f6fe691a][ExtensionHostConnection] New connection established.
+2023-06-07 13:22:57.811 [info] [127.0.0.1][f6fe691a][ExtensionHostConnection] <2032067> Launched Extension Host Process.
+2023-06-07 13:23:02.238 [error] CodeExpectedError: Could not find pty on pty host
+    at E.L (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:28:6871)
+    at E.attachToProcess (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:28:2465)
+    at Object.call (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:17:5093)
+    at h.s (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:5445)
+    at h.q (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:4936)
+    at /home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:15:4341
+    at c.invoke (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at g.deliver (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at t.fire (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.U (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/platform/terminal/node/ptyHostMain.js:9:21145)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-06-07 13:27:57.427 [info] New EH opened, aborting shutdown
+2023-06-07 18:28:58.943 [info] [127.0.0.1][8e6caa08][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-07 18:28:59.105 [info] [127.0.0.1][f6fe691a][ExtensionHostConnection] <2032067> Extension Host Process exited with code: 0, signal: null.
+2023-06-07 18:28:59.106 [info] Last EH closed, waiting before shutting down
+2023-06-07 18:29:01.749 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-06-07 18:29:01.749 [info] Cancelling previous shutdown timeout
+2023-06-07 18:29:02.097 [info] [127.0.0.1][67d9c3b6][ManagementConnection] New connection established.
+2023-06-07 18:29:02.302 [info] [127.0.0.1][91ceb97d][ExtensionHostConnection] New connection established.
+2023-06-07 18:29:02.320 [info] [127.0.0.1][91ceb97d][ExtensionHostConnection] <2166480> Launched Extension Host Process.
+2023-06-07 18:34:01.750 [info] New EH opened, aborting shutdown
+2023-06-07 18:37:09.430 [info] [127.0.0.1][67d9c3b6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-07 18:37:09.487 [info] [127.0.0.1][91ceb97d][ExtensionHostConnection] <2166480> Extension Host Process exited with code: 0, signal: null.
+2023-06-07 18:37:09.488 [info] Last EH closed, waiting before shutting down
+2023-06-07 18:42:09.488 [info] Last EH closed, shutting down

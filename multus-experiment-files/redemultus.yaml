@@ -1,0 +1,28 @@
+apiVersion: "k8s.cni.cncf.io/v1"
+kind: NetworkAttachmentDefinition
+metadata:
+  name: another-bridge-network
+spec:
+  config: '{
+  "cniVersion": "0.3.0",
+  "name": "another-bridge-network",
+  "plugins": [
+    {
+      "type": "bridge",
+      "bridge": "br0",
+      "ipam": {
+        "type": "host-local",
+        "subnet": "192.168.5.0/24"
+      }
+    },
+    {
+      "type": "port-forwarding"
+    },
+    {
+      "type": "tuning",
+      "sysctl": {
+        "net.ipv4.conf.all.log_martians": "1"
+      },
+    }
+  ]
+}'

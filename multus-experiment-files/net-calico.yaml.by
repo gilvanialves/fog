@@ -1,0 +1,23 @@
+apiVersion: "k8s.cni.cncf.io/v1"
+kind: NetworkAttachmentDefinition
+metadata:
+  name: calico
+spec:
+  config: '{
+    "cniVersion": "0.3.1",
+    "name": "calico-net",
+    "plugins": [
+      {
+        "type": "calico",
+        "ipam": {
+          "type": "host-local",
+          "subnet": "192.168.11.0/24"
+        },
+        "policy": {
+          "type": "calico",
+          "outbound": {"defaultAction": "Allow"},
+          "inbound": {"defaultAction": "Allow"}
+        }
+      }
+    ]
+  }'

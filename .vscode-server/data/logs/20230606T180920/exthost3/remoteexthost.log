@@ -1,0 +1,58 @@
+2023-06-06 18:34:25.862 [info] Extension host with pid 1338500 started
+2023-06-06 18:34:25.868 [error] Error: EEXIST: file already exists, open '/home/cti/.vscode-server/data/User/workspaceStorage/dd7fb4e4c9870a56e87a98666a9a209c/vscode.lock'
+2023-06-06 18:34:25.878 [info] Lock '/home/cti/.vscode-server/data/User/workspaceStorage/dd7fb4e4c9870a56e87a98666a9a209c/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-06-06 18:34:25.886 [info] Lock '/home/cti/.vscode-server/data/User/workspaceStorage/dd7fb4e4c9870a56e87a98666a9a209c/vscode.lock': The lock does not look stale, elapsed: 705 ms, giving up.
+2023-06-06 18:34:25.890 [info] Lock '/home/cti/.vscode-server/data/User/workspaceStorage/dd7fb4e4c9870a56e87a98666a9a209c-1/vscode.lock': Lock acquired.
+2023-06-06 18:34:26.116 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2023-06-06 18:34:26.118 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2023-06-06 18:34:26.119 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-06 18:34:26.569 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2023-06-06 18:34:26.570 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2023-06-06 18:34:27.063 [info] Eager extensions activated
+2023-06-06 18:34:27.063 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-06 18:34:27.064 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-06 18:34:27.065 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2023-06-06 18:34:27.655 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-06-06 18:34:27.660 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-06-06 18:34:27.729 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-06-06 18:34:27.851 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-06-06 18:34:27.987 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-06-06 18:35:39.085 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-06-06 19:54:34.391 [info] Extension host terminating: renderer disconnected for too long (2)
+2023-06-06 19:54:34.393 [info] Lock '/home/cti/.vscode-server/data/User/workspaceStorage/dd7fb4e4c9870a56e87a98666a9a209c-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-06-06 19:54:34.440 [error] Canceled: Canceled
+    at new l (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:104563)
+    at a.O (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:111:11657)
+    at Proxy.H.<computed>.x.charCodeAt.H.<computed> (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:111:8947)
+    at e.ExtHostCommands.g (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:124729)
+    at e.ExtHostCommands.executeCommand (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:124105)
+    at C.registerCommand.description (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:123398)
+    at e.ExtHostCommands.h (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:125315)
+    at e.ExtHostCommands.g (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:124205)
+    at e.ExtHostCommands.executeCommand (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:99:124105)
+    at Object.executeCommand (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:117:24043)
+    at D (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/main.js:2:1259661)
+    at v.invoke (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at h.deliver (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+    at i.fire (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+    at Object.m [as dispose] (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/main.js:2:1274494)
+    at /home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/main.js:2:1278940
+    at Array.forEach (<anonymous>)
+    at g.dispose (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/main.js:2:1278926)
+    at t.<anonymous> (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:97:12369)
+    at t.dispose (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:97:12504)
+    at t.<anonymous> (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/main.js:2:1261791)
+    at t.dispose (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:97:12504)
+    at P (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:10:12080)
+    at v.Y (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:113:11173)
+    at /home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:113:9157
+    at Array.map (<anonymous>)
+    at v.R (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:113:9144)
+    at v.terminate (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:113:9415)
+    at d.terminate (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:117:1544)
+    at g (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:127:34439)
+    at x.a (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:127:30994)
+    at x.h (/home/cti/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/workbench/api/node/extensionHostProcess.js:66:46626)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) setContext undefined
+2023-06-06 19:54:34.445 [info] Extension host with pid 1338500 exiting with code 0

@@ -1,0 +1,15 @@
+2023-06-14 18:03:06.408 [info] 
+
+
+
+
+2023-06-14 18:03:06.461 [info] Extension host agent started.
+2023-06-14 18:03:06.613 [info] Deleted from disk github.copilot /home/cti/.vscode-server/extensions/github.copilot-1.88.132
+2023-06-14 18:03:06.695 [info] [127.0.0.1][0edfc132][ManagementConnection] New connection established.
+2023-06-14 18:03:06.804 [info] [127.0.0.1][e07d6329][ExtensionHostConnection] New connection established.
+2023-06-14 18:03:06.942 [info] [127.0.0.1][e07d6329][ExtensionHostConnection] <149978> Launched Extension Host Process.
+2023-06-14 18:08:06.462 [info] New EH opened, aborting shutdown
+2023-06-14 19:08:43.189 [info] [127.0.0.1][0edfc132][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-14 19:08:43.326 [info] [127.0.0.1][e07d6329][ExtensionHostConnection] <149978> Extension Host Process exited with code: 0, signal: null.
+2023-06-14 19:08:43.327 [info] Last EH closed, waiting before shutting down
+2023-06-14 19:13:43.329 [info] Last EH closed, shutting down

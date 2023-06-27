@@ -1,0 +1,410 @@
+["INFO" - 3:21:15 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 3:21:15 PM] Extension Version: 9.13.0.
+["INFO" - 3:22:38 PM] Formatting file:///home/cti/multus-experiment-files/net-attach-def.yaml
+["INFO" - 3:22:38 PM] Using ignore file (if present) at /home/cti/.prettierignore
+["INFO" - 3:22:38 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "yaml"
+}
+["INFO" - 3:22:38 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:22:38 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/cti/multus-experiment-files/net-attach-def.yaml",
+  "parser": "yaml"
+}
+["INFO" - 3:22:38 PM] Formatting completed in 140ms.
+["INFO" - 3:25:17 PM] Formatting file:///home/cti/multus-experiment-files/net-flannel.yaml
+["INFO" - 3:25:17 PM] Using ignore file (if present) at /home/cti/.prettierignore
+["INFO" - 3:25:17 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "yaml"
+}
+["INFO" - 3:25:17 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:25:17 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/cti/multus-experiment-files/net-flannel.yaml",
+  "parser": "yaml"
+}
+["INFO" - 3:25:17 PM] Formatting completed in 27ms.
+["INFO" - 3:25:39 PM] Formatting file:///home/cti/multus-experiment-files/net-weave.yaml
+["INFO" - 3:25:39 PM] Using ignore file (if present) at /home/cti/.prettierignore
+["INFO" - 3:25:39 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "yaml"
+}
+["INFO" - 3:25:39 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:25:39 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/cti/multus-experiment-files/net-weave.yaml",
+  "parser": "yaml"
+}
+["INFO" - 3:25:39 PM] Formatting completed in 22ms.
+["INFO" - 3:26:28 PM] Formatting file:///home/cti/multus-experiment-files/net-weave-bridge.yaml
+["INFO" - 3:26:28 PM] Using ignore file (if present) at /home/cti/.prettierignore
+["INFO" - 3:26:28 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "yaml"
+}
+["INFO" - 3:26:28 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:26:28 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/cti/multus-experiment-files/net-weave-bridge.yaml",
+  "parser": "yaml"
+}
+["INFO" - 3:26:28 PM] Formatting completed in 19ms.
+["INFO" - 3:30:06 PM] Formatting file:///home/cti/multus-experiment-files/sampletree-pod.yaml
+["INFO" - 3:30:06 PM] Using ignore file (if present) at /home/cti/.prettierignore
+["INFO" - 3:30:06 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "yaml"
+}
+["INFO" - 3:30:06 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:30:06 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/cti/multus-experiment-files/sampletree-pod.yaml",
+  "parser": "yaml"
+}
+["INFO" - 3:30:06 PM] Formatting completed in 28ms.
+["INFO" - 3:32:37 PM] Formatting file:///home/cti/multus-experiment-files/sampletree2-pod.yaml
+["INFO" - 3:32:37 PM] Using ignore file (if present) at /home/cti/.prettierignore
+["INFO" - 3:32:37 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "yaml"
+}
+["INFO" - 3:32:37 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:32:37 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/cti/multus-experiment-files/sampletree2-pod.yaml",
+  "parser": "yaml"
+}
+["INFO" - 3:32:37 PM] Formatting completed in 41ms.
+["INFO" - 3:37:51 PM] Formatting file:///home/cti/multus-experiment-files/net_attach_def/default-net-weave.yaml
+["INFO" - 3:37:51 PM] Using ignore file (if present) at /home/cti/.prettierignore
+["INFO" - 3:37:51 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "yaml"
+}
+["INFO" - 3:37:51 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:37:51 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/cti/multus-experiment-files/net_attach_def/default-net-weave.yaml",
+  "parser": "yaml"
+}
+["INFO" - 3:37:51 PM] Formatting completed in 33ms.
+["INFO" - 3:39:11 PM] Formatting file:///home/cti/multus-experiment-files/sampletree-pod.yaml
+["INFO" - 3:39:11 PM] Using ignore file (if present) at /home/cti/.prettierignore
+["INFO" - 3:39:11 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "yaml"
+}
+["INFO" - 3:39:11 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:39:11 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/cti/multus-experiment-files/sampletree-pod.yaml",
+  "parser": "yaml"
+}
+["INFO" - 3:39:11 PM] Formatting completed in 29ms.
+["INFO" - 3:39:16 PM] Formatting file:///home/cti/multus-experiment-files/sampletree2-pod.yaml
+["INFO" - 3:39:16 PM] Using ignore file (if present) at /home/cti/.prettierignore
+["INFO" - 3:39:16 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "yaml"
+}
+["INFO" - 3:39:16 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:39:16 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/cti/multus-experiment-files/sampletree2-pod.yaml",
+  "parser": "yaml"
+}
+["INFO" - 3:39:16 PM] Formatting completed in 21ms.
+["INFO" - 3:43:40 PM] Formatting file:///home/cti/multus-experiment-files/net_attach_def/default-net-weave.yaml
+["INFO" - 3:43:40 PM] Using ignore file (if present) at /home/cti/.prettierignore
+["INFO" - 3:43:40 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "yaml"
+}
+["INFO" - 3:43:40 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:43:40 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/cti/multus-experiment-files/net_attach_def/default-net-weave.yaml",
+  "parser": "yaml"
+}
+["INFO" - 3:43:40 PM] Formatting completed in 25ms.
+["INFO" - 3:43:53 PM] Formatting file:///home/cti/multus-experiment-files/net_attach_def/default-net-weave.yaml
+["INFO" - 3:43:53 PM] Using ignore file (if present) at /home/cti/.prettierignore
+["INFO" - 3:43:53 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "yaml"
+}
+["INFO" - 3:43:53 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:43:53 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/cti/multus-experiment-files/net_attach_def/default-net-weave.yaml",
+  "parser": "yaml"
+}
+["INFO" - 3:43:53 PM] Formatting completed in 23ms.
+["INFO" - 3:49:44 PM] Formatting file:///home/cti/multus-experiment-files/net_attach_def/default-net-weave.yaml
+["INFO" - 3:49:44 PM] Using ignore file (if present) at /home/cti/.prettierignore
+["INFO" - 3:49:44 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "yaml"
+}
+["INFO" - 3:49:44 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:49:44 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/cti/multus-experiment-files/net_attach_def/default-net-weave.yaml",
+  "parser": "yaml"
+}
+["INFO" - 3:49:44 PM] Formatting completed in 23ms.

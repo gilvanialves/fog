@@ -1,0 +1,36 @@
+["INFO" - 8:20:07 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 8:20:07 PM] Extension Version: 9.13.0.
+["INFO" - 8:20:22 PM] Formatting file:///home/cti/flannel/kube-flannel.yml
+["INFO" - 8:20:22 PM] Using ignore file (if present) at /home/cti/.prettierignore
+["INFO" - 8:20:22 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "yaml"
+}
+["INFO" - 8:20:22 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 8:20:22 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/cti/flannel/kube-flannel.yml",
+  "parser": "yaml"
+}
+["INFO" - 8:20:22 PM] Formatting completed in 210ms.

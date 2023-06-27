@@ -1,0 +1,12 @@
+apiVersion: "cilium.io/v2"
+kind: CiliumNetworkPolicy
+metadata:
+  name: "allow-all-to-gaviao"
+spec:
+  endpointSelector:
+    matchLabels:
+      role: victim
+  ingress:
+  - fromEndpoints:
+    - {}
+

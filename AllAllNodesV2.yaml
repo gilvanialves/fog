@@ -1,0 +1,14 @@
+apiVersion: cilium.io/v2
+kind: CiliumNetworkPolicy
+metadata:
+  name: allow-all
+spec:
+  endpointSelector: {}
+  ingress:
+    - {}
+  egress:
+    - toEndpoints: [{}]
+      toPorts:
+        - ports:
+            - port: "0"
+              protocol: ICMP

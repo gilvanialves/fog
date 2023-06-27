@@ -1,0 +1,22 @@
+[INFO] [copilotIgnore] [2023-06-09T14:08:46.018Z] inactive
+Not installing CopilotChat- not VS Code Insiders 
+[INFO] [default] [2023-06-09T14:09:03.343Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [ghostText] [2023-06-09T14:09:04.490Z] Cancelled during debounce
+[INFO] [default] [2023-06-09T14:09:04.596Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-06-09T14:09:04.782Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-06-09T14:09:05.494Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 711 ms
+[INFO] [streamChoices] [2023-06-09T14:09:05.500Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-06-09T14:09:05.510Z] request done: headerRequestId: [a2dc0f64-f7ee-4ef4-a824-cb822acae10b] model deployment ID: [x3096f9ec1aeb]
+[INFO] [ghostText] [2023-06-09T14:09:06.581Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-06-09T14:09:06.897Z] Found inline suggestions locally
+[INFO] [default] [2023-06-09T14:12:52.689Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-06-09T14:12:52.828Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-06-09T14:12:53.056Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-06-09T14:12:53.348Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 292 ms
+[INFO] [streamChoices] [2023-06-09T14:12:53.352Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-06-09T14:12:53.359Z] request done: headerRequestId: [c060b3b0-49e1-404a-91d7-e78a88b4c953] model deployment ID: [x3096f9ec1aeb]
+[INFO] [ghostText] [2023-06-09T14:12:53.442Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-06-09T14:12:53.577Z] Found inline suggestions locally
+[INFO] [copilotIgnore] [2023-06-09T14:33:46.712Z] inactive
+[INFO] [copilotIgnore] [2023-06-09T14:58:47.509Z] inactive
+[INFO] [copilotIgnore] [2023-06-09T15:27:43.442Z] inactive

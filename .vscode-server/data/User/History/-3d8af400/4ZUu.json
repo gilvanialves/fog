@@ -1,0 +1,8 @@
+{
+	"editor.defaultFormatter": "redhat.vscode-yaml",
+	"yaml.schemas": {
+		"Kubernetes": [
+				"*.yaml"
+		],
+},
+}

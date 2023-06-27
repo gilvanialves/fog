@@ -1,0 +1,33 @@
+apiVersion: 'k8s.cni.cncf.io/v1'
+kind: NetworkAttachmentDefinition
+metadata:
+  name: weave
+spec:
+  config: '{
+    "cniVersion": "0.3.0",
+    "name": "weave",
+    "ipam": {
+    "type": "host-local",
+    "ranges": [
+    [
+    {
+    "subnet": "10.32.0.0/12"
+    "rangeStart": "10.32.0.10",
+    "rangeEnd": "10.32.0.254",
+    }
+    ]
+    ]
+    },
+    "plugins": [
+    {
+    "name": "weave",
+    "type": "weave-net",
+    "hairpinMode": true
+    },
+    {
+    "type": "portmap",
+    "capabilities": {"portMappings": true},
+    "snat": true
+    }
+    ]
+    }'

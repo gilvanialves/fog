@@ -1,0 +1,610 @@
+apiVersion: v1
+entries:
+  tigera-operator:
+  - apiVersion: v2
+    appVersion: v3.26.1
+    created: '2023-06-25T19:13:54.079995163Z'
+    description: Installs the Tigera operator for Calico
+    digest: d5a9347cd91aa7e37bdcfdaad65900354aabc465aaeec6765b15f360af854948
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.26.1/tigera-operator-v3.26.1.tgz
+    version: v3.26.1
+  - apiVersion: v2
+    appVersion: v3.26.0
+    created: '2023-06-25T19:13:54.074648527Z'
+    description: Installs the Tigera operator for Calico
+    digest: 252dd55a5964c088f1a9de0aa40249d3ce4130ec81da2da8ea1a4b11a830875c
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.26.0/tigera-operator-v3.26.0.tgz
+    version: v3.26.0
+  - apiVersion: v2
+    appVersion: v3.25.1
+    created: '2023-06-25T19:13:54.070368908Z'
+    description: Installs the Tigera operator for Calico
+    digest: 1d85f591b3079406befec89a454342c5cbd931e883fc62ce59b89d5ede1fb882
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.25.1/tigera-operator-v3.25.1.tgz
+    version: v3.25.1
+  - apiVersion: v2
+    appVersion: v3.25.0
+    created: '2023-06-25T19:13:54.066804648Z'
+    description: Installs the Tigera operator for Calico
+    digest: ec0ffeae372ec17a108be6342ce60a90a1a56d44e0566b052fc01a9d1500f28d
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.25.0/tigera-operator-v3.25.0.tgz
+    version: v3.25.0
+  - apiVersion: v2
+    appVersion: v3.24.6
+    created: '2023-06-25T19:13:54.063705412Z'
+    description: Installs the Tigera operator for Calico
+    digest: f97aa956848f0bb46d48b8c6291aabfc6a5322ae7074a900c1e58e66b417b405
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.24.6/tigera-operator-v3.24.6.tgz
+    version: v3.24.6
+  - apiVersion: v2
+    appVersion: v3.24.5
+    created: '2023-06-25T19:13:54.059653277Z'
+    description: Installs the Tigera operator for Calico
+    digest: a3584213c8c5b61cf53552805102b93f321b6eaa4a0b890830a2c32fce993f31
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.24.5/tigera-operator-v3.24.5.tgz
+    version: v3.24.5
+  - apiVersion: v2
+    appVersion: v3.24.4
+    created: '2023-06-25T19:13:54.056322763Z'
+    description: Installs the Tigera operator for Calico
+    digest: 83a86b785347cd47b3652155201fbcba47073150bb9bd5f8a131e90ca3350fa0
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.24.4/tigera-operator-v3.24.4.tgz
+    version: v3.24.4
+  - apiVersion: v2
+    appVersion: v3.24.3
+    created: '2023-06-25T19:13:54.052631996Z'
+    description: Installs the Tigera operator for Calico
+    digest: 350607668d4ac58dce5e1440b3c37b5eed11b752733a3f8fc0b61ed56496abda
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.24.3/tigera-operator-v3.24.3.tgz
+    version: v3.24.3
+  - apiVersion: v2
+    appVersion: v3.24.2
+    created: '2023-06-25T19:13:54.048239922Z'
+    description: Installs the Tigera operator for Calico
+    digest: dbf96a95119aca2160dd28ef19e3dc14ffd2ad7bb9a9f8584fea891b1627381a
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.24.2/tigera-operator-v3.24.2.tgz
+    version: v3.24.2
+  - apiVersion: v2
+    appVersion: v3.24.1
+    created: '2023-06-25T19:13:54.045150668Z'
+    description: Installs the Tigera operator for Calico
+    digest: 3470113d74082d510061441fe6989fb518df792e9df17cdfc8f6971fa1ee428d
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.24.1/tigera-operator-v3.24.1.tgz
+    version: v3.24.1
+  - apiVersion: v2
+    appVersion: v3.24.0
+    created: '2023-06-25T19:13:54.041129101Z'
+    description: Installs the Tigera operator for Calico
+    digest: 194020fcec9861d75fff8ab97120a2cee54277d61cac870602e71ed719d7e9bb
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.24.0/tigera-operator-v3.24.0.tgz
+    version: v3.24.0
+  - apiVersion: v2
+    appVersion: v3.23.5
+    created: '2023-06-25T19:13:54.031287738Z'
+    description: Installs the Tigera operator for Calico
+    digest: c2dffb82103ade3ec0c5830a84a8231f00c9a9ec94a1cd903d6f23db1e0c1978
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.23.5/tigera-operator-v3.23.5.tgz
+    version: v3.23.5
+  - apiVersion: v2
+    appVersion: v3.23.4
+    created: '2023-06-25T19:13:54.029721789Z'
+    description: Installs the Tigera operator for Calico
+    digest: 5ec8859858dd723f1e405cc56f065de31b738959a934553999d017e39bbff041
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.23.4/tigera-operator-v3.23.4.tgz
+    version: v3.23.4
+  - apiVersion: v2
+    appVersion: v3.23.3
+    created: '2023-06-25T19:13:54.028215463Z'
+    description: Installs the Tigera operator for Calico
+    digest: f70ee2c03695dbe14b4f2d2e6fac0a4b3a502de69b6f57c8df7b2ab9ccfbd862
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.23.3/tigera-operator-v3.23.3.tgz
+    version: v3.23.3
+  - apiVersion: v2
+    appVersion: v3.23.2
+    created: '2023-06-25T19:13:54.026082159Z'
+    description: Installs the Tigera operator for Calico
+    digest: 8f46ce7b5d68f8ec8477e89630da29fcc97a0ee0ae718ff1806a23533df00620
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.23.2/tigera-operator-v3.23.2.tgz
+    version: v3.23.2
+  - apiVersion: v2
+    appVersion: v3.23.1
+    created: '2023-06-25T19:13:54.02460397Z'
+    description: Installs the Tigera operator for Calico
+    digest: d536009385aac795b73d2008355342bcb27409098dcbe4507f9ce3d193d64f48
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.23.1/tigera-operator-v3.23.1.tgz
+    version: v3.23.1
+  - apiVersion: v2
+    appVersion: v3.23.0
+    created: '2023-06-25T19:13:54.023184391Z'
+    description: Installs the Tigera operator for Calico
+    digest: 4c060e05b6d9bfb547f0da8f1eb6ef3d584a001f732b427761725e2dfe742426
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.23.0/tigera-operator-v3.23.0.tgz
+    version: v3.23.0
+  - apiVersion: v2
+    appVersion: v3.22.5
+    created: '2023-06-25T19:13:54.021540947Z'
+    description: Installs the Tigera operator for Calico
+    digest: 0a91aa500dd4208f9848a19bcd90b40c337944342aaa6e2d6dfc8ea0f99ec97a
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.22.5/tigera-operator-v3.22.5.tgz
+    version: v3.22.5
+  - apiVersion: v2
+    appVersion: v3.22.4
+    created: '2023-06-25T19:13:54.019800253Z'
+    description: Installs the Tigera operator for Calico
+    digest: cebe51eb1bddc9e4f2d6bed242015fb25806d675a9a3fc15713c1580032cad65
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.22.4/tigera-operator-v3.22.4.tgz
+    version: v3.22.4
+  - apiVersion: v2
+    appVersion: v3.22.3
+    created: '2023-06-25T19:13:54.018270162Z'
+    description: Installs the Tigera operator for Calico
+    digest: 0ae932fb706f93645ef8e7e653f8574d0e046e372b1f8b96e8f67ac42ce206bb
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.22.3/tigera-operator-v3.22.3.tgz
+    version: v3.22.3
+  - apiVersion: v2
+    appVersion: v3.22.2
+    created: '2023-06-25T19:13:54.016836038Z'
+    description: Installs the Tigera operator for Calico
+    digest: 38a81cda3837f37ccaa52d56d8fcb83ac68f34fedc160b5384f619060d3c5d82
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.22.2/tigera-operator-v3.22.2.tgz
+    version: v3.22.2
+  - apiVersion: v2
+    appVersion: v3.22.1
+    created: '2023-06-25T19:13:54.015122851Z'
+    description: Installs the Tigera operator for Calico
+    digest: 70e829a324b61c9cfd9d0dbce33060eec7173d0e4f23e90c2b75ae9cc2f98be9
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.22.1/tigera-operator-v3.22.1.tgz
+    version: v3.22.1
+  - apiVersion: v2
+    appVersion: v3.22.0
+    created: '2023-06-25T19:13:54.013461572Z'
+    description: Installs the Tigera operator for Calico
+    digest: 6a5b6fcb1ee7debf31ec307c6a4e342f91758d5b78cfb30954555c583039e1d0
+    home: https://projectcalico.docs.tigera.io/about/about-calico
+    icon: https://projectcalico.docs.tigera.io/images/felix_icon.png
+    name: tigera-operator
+    sources:
+    - https://github.com/projectcalico/calico/tree/master/calico/_includes/charts/tigera-operator
+    - https://github.com/tigera/operator
+    - https://github.com/projectcalico/calico
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.22.0/tigera-operator-v3.22.0.tgz
+    version: v3.22.0
+  - apiVersion: v2
+    appVersion: v3.21.6
+    created: '2023-06-25T19:13:54.01210732Z'
+    description: Installs the Tigera operator for Calico
+    digest: 4717e4eccac45a70596f97245a186bc74f89fb91f8fe1aadedb23ba180f55790
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.21.6/tigera-operator-v3.21.6.tgz
+    version: v3.21.6
+  - apiVersion: v2
+    appVersion: v3.21.5
+    created: '2023-06-25T19:13:54.010802121Z'
+    description: Installs the Tigera operator for Calico
+    digest: a50a87a48d4a263e4a9e89dae9bea3f33f74c1d60e1cb041fb7d901aa2456e3c
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.21.5/tigera-operator-v3.21.5.tgz
+    version: v3.21.5
+  - apiVersion: v2
+    appVersion: v3.21.4
+    created: '2023-06-25T19:13:54.009338744Z'
+    description: Installs the Tigera operator for Calico
+    digest: 1d0f3b0ab891a699913701787f4328d66f3bff1393eed9ff4004287b6a8b318b
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.21.4/tigera-operator-v3.21.4.tgz
+    version: v3.21.4
+  - apiVersion: v2
+    appVersion: v3.21.3
+    created: '2023-06-16T19:13:59.73191102Z'
+    description: Installs the Tigera operator for Calico
+    digest: 70e10ce0384fff7d57e8692baabb72be864445429b6c923faa64d367e71e7858
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.21.3/tigera-operator-v3.21.3.tgz
+    version: v3.21.3
+  - apiVersion: v2
+    appVersion: v3.21.2
+    created: '2023-05-26T19:14:55.777799813Z'
+    description: Installs the Tigera operator for Calico
+    digest: 483351cbc90be2eeb94eb792687a3effd425a58de35a0259ab1c65274f17a12f
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.21.2/tigera-operator-v3.21.2-1.tgz
+    version: v3.21.2
+  - apiVersion: v2
+    appVersion: v3.21.1
+    created: '2023-03-30T19:14:10.145002336Z'
+    description: Installs the Tigera operator for Calico
+    digest: f963c1ae6dab7f0a63f51528296c82e294c977cd2cab1915fc0a8d771b3b4ab9
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.21.1/tigera-operator-v3.21.1-0.tgz
+    version: v3.21.1
+  - apiVersion: v2
+    appVersion: v3.21.0
+    created: '2022-11-03T19:14:24.641239459Z'
+    description: Installs the Tigera operator for Calico
+    digest: 23c37c695c2a41a603bc7fd6196326fa9b5e93a8f9472ce577992aff402739d8
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.21.0/tigera-operator-v3.21.0-0.tgz
+    version: v3.21.0
+  - apiVersion: v2
+    appVersion: v3.20.6
+    created: '2023-06-25T19:13:54.007333072Z'
+    description: Installs the Tigera operator for Calico
+    digest: eb35c40243abfd502e51da84af44c4f82d57185b4361ab34affe36a7f2596479
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.20.6/tigera-operator-v3.20.6-1.tgz
+    version: v3.20.6
+  - apiVersion: v2
+    appVersion: v3.20.5
+    created: '2023-06-25T19:13:54.00596098Z'
+    description: Installs the Tigera operator for Calico
+    digest: a5402610d3e463434fad89741703fa2156a53b0b789e03883190213a96c85423
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.20.5/tigera-operator-v3.20.5-1.tgz
+    version: v3.20.5
+  - apiVersion: v2
+    appVersion: v3.20.4
+    created: '2023-06-25T19:13:54.004575825Z'
+    description: Installs the Tigera operator for Calico
+    digest: 1a60af901ca3866c50e8806f9309281fe6b6b70389a2a30c2e8de675f9d8116f
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.20.4/tigera-operator-v3.20.4-1.tgz
+    version: v3.20.4
+  - apiVersion: v2
+    appVersion: v3.20.3
+    created: '2023-05-16T19:14:44.39035254Z'
+    description: Installs the Tigera operator for Calico
+    digest: 03c34ed60cb0d5fa2e52cf0bd3161064e7d5c9db5300a27496f249f8ced54134
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.20.3/tigera-operator-v3.20.3-1.tgz
+    version: v3.20.3
+  - apiVersion: v2
+    appVersion: v3.20.2
+    created: '2022-11-02T19:14:12.951087228Z'
+    description: Installs the Tigera operator for Calico
+    digest: fc2b1fd238fe09def7e2032d2092872298949a07506b8dc806dd419ff28f06d2
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.20.2/tigera-operator-v3.20.2-1.tgz
+    version: v3.20.2
+  - apiVersion: v2
+    appVersion: v3.20.1
+    created: '2022-10-21T19:14:27.846076557Z'
+    description: Installs the Tigera operator for Calico
+    digest: 5f97b13ee293fca538af375a8f192898782d4785e0116420708135335e39ce84
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.20.1/tigera-operator-v3.20.1.tgz
+    version: v3.20.1
+  - apiVersion: v2
+    appVersion: v3.20.0
+    created: '2022-08-17T19:14:28.667532463Z'
+    description: Installs the Tigera operator for Calico
+    digest: deb7aa91f1f0f9271539ec8c5724eeaf7d48db13eeb9dd323b68e4a2d706175c
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.20.0/tigera-operator-v3.20.0-1.tgz
+    version: v3.20.0
+  - apiVersion: v2
+    appVersion: v3.19.4
+    created: '2022-02-09T19:14:21.410772937Z'
+    description: Installs the Tigera operator for Calico
+    digest: 5438c24a9f87c9ccbe35c7ef67572c5b3713d5f7c8b0f19a5db5dbcfce2368ab
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.19.4/tigera-operator-v3.19.4-1.tgz
+    version: v3.19.4
+  - apiVersion: v2
+    appVersion: v3.19.3
+    created: '2021-12-03T11:02:52.529326322Z'
+    description: Installs the Tigera operator for Calico
+    digest: 13185116b492c0c4b07c01f832d3d052135fdb36865f69bad8a1eeb1996fc52d
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.19.3/tigera-operator-v3.19.3-2.tgz
+    version: v3.19.3
+  - apiVersion: v2
+    appVersion: v3.19.2
+    created: '2021-08-09T20:06:26.021150329+01:00'
+    description: Installs the Tigera operator for Calico
+    digest: 9df19852f4e8c5d76d1c17b89e4272203cc40b9b99e448b72d7f3323c6637092
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.19.2/tigera-operator-v3.19.2-2.tgz
+    version: v3.19.2
+  - apiVersion: v2
+    appVersion: v3.19.1
+    created: '2022-07-20T16:10:42.680278613Z'
+    description: Installs the Tigera operator for Calico
+    digest: 93504756da80a72506ffb17c1dfb770c9eeba85ff5f56a90df0786d8c3d579ef
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.19.1/tigera-operator-v3.19.1-3.tgz
+    version: v3.19.1
+  - apiVersion: v2
+    appVersion: v3.19.0
+    created: '2021-12-15T19:14:49.268063502Z'
+    description: Installs the Tigera operator for Calico
+    digest: b7f17f7920b5e419db5355105119648420a2bd7b31999eb0010786d239f311eb
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.19.0/tigera-operator-v3.19.0-1.tgz
+    version: v3.19.0
+  - apiVersion: v2
+    appVersion: v3.18.6
+    created: '2021-12-03T11:02:52.523458367Z'
+    description: Installs the Tigera operator for Calico
+    digest: ea711168cf8e1ad3ec513be39ed849dbc117867d6b492c1fa0d57541cba4712d
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.18.6/tigera-operator-v3.18.6-1.tgz
+    version: v3.18.6
+  - apiVersion: v2
+    appVersion: v3.18.5
+    created: '2021-12-03T11:02:52.521733002Z'
+    description: Installs the Tigera operator for Calico
+    digest: 81b33f856a3bfee41891b3e18edfa5c0af225a73e75913c2bd5ef27692e7bf07
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.18.5/tigera-operator-v3.18.5-1.tgz
+    version: v3.18.5
+  - apiVersion: v2
+    appVersion: v3.18.4
+    created: '2021-07-12T10:59:24.90923317+01:00'
+    description: Installs the Tigera operator for Calico
+    digest: ab86ef7a50759e85193143f20338f70b400cf870abc59a86c73e995a2e2fec36
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.18.4/tigera-operator-v3.18.4-1.tgz
+    version: v3.18.4
+  - apiVersion: v2
+    appVersion: v3.18.3
+    created: '2021-05-24T18:42:01.527076894+01:00'
+    description: Installs the Tigera operator for Calico
+    digest: 03a32a8aa776b2be770b41356064c84a509a5b60eedc553a05dd44e9b60c820b
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.18.3/tigera-operator-v3.18.3-1.tgz
+    version: v3.18.3
+  - apiVersion: v2
+    appVersion: v3.18.2
+    created: '2021-05-24T18:42:01.525657762+01:00'
+    description: Installs the Tigera operator for Calico
+    digest: cffcd4ce9b9ab51600ddd0fcf2402bccf366fbf841f65f21c4c3e6b44e3fa22a
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.18.2/tigera-operator-v3.18.2-1.tgz
+    version: v3.18.2
+  - apiVersion: v2
+    appVersion: v3.18.1
+    created: '2021-05-24T18:42:01.523593342+01:00'
+    description: Installs the Tigera operator for Calico
+    digest: cf61c59f509af23423c4de7dc0fc3434f2910a745e16bf32dbcda9c624029623
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.18.1/tigera-operator-v3.18.1-1.tgz
+    version: v3.18.1
+  - apiVersion: v2
+    appVersion: v3.18.0
+    created: '2021-05-24T18:42:01.522007024+01:00'
+    description: Installs the Tigera operator for Calico
+    digest: caa82506116e2b88d9e4f4c92dac44454831c23b0e07a0e89190bd8c9a6ef268
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.18.0/tigera-operator-v3.18.0-1.tgz
+    version: v3.18.0
+  - apiVersion: v2
+    appVersion: v3.17.6
+    created: '2021-12-03T11:02:52.512479308Z'
+    description: Installs the Tigera operator for Calico
+    digest: a72a1d10e55914aa5a37e41b4863ec954cc0404ae797a3e5b959a415a4a7aa8d
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.17.6/tigera-operator-v3.17.6-1.tgz
+    version: v3.17.6
+  - apiVersion: v2
+    appVersion: v3.17.5
+    created: '2021-12-03T11:02:52.511098381Z'
+    description: Installs the Tigera operator for Calico
+    digest: 320d593bccbc8bcbf77846cbc222da93636827650e8cdb112c32e2e063846fee
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.17.5/tigera-operator-v3.17.5-1.tgz
+    version: v3.17.5
+  - apiVersion: v2
+    appVersion: v3.17.4
+    created: '2021-12-03T11:02:52.509449511Z'
+    description: Installs the Tigera operator for Calico
+    digest: 952ecc6ddaba73dc008d7ca67bfaf3f1b29b657ecdf8b91f1b48b5f7efc2afad
+    name: tigera-operator
+    urls:
+    - https://github.com/projectcalico/calico/releases/download/v3.17.4/tigera-operator-v3.17.4-1.tgz
+    version: v3.17.4
+generated: '2023-06-25T19:13:54.000957254Z'

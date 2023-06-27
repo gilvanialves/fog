@@ -1,0 +1,20 @@
+juju config multus network-attachment-definitions='
+apiVersion: "k8s.cni.cncf.io/v1"
+kind: NetworkAttachmentDefinition
+metadata:
+  name: sriov
+  namespace: default
+  annotations:
+    k8s.v1.cni.cncf.io/resourceName: intel.com/intel_sriov_netdevice
+spec:
+  config: |
+    {
+      "type": "sriov",
+      "ipam": {
+        "type": "host-local",
+        "ranges": [[{
+            "subnet": "10.123.123.0/24"
+        }]]
+      }
+    }
+'

@@ -1,0 +1,34 @@
+[INFO] [copilotIgnore] [2023-06-14T18:03:12.051Z] inactive
+[INFO] [copilotIgnore] [2023-06-14T18:28:12.769Z] inactive
+[INFO] [ghostText] [2023-06-14T18:37:56.287Z] Cancelled after extractPrompt
+[INFO] [default] [2023-06-14T18:37:56.395Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-06-14T18:37:56.675Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-06-14T18:37:58.071Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1395 ms
+[INFO] [streamChoices] [2023-06-14T18:37:58.078Z] solution 0 returned. finish reason: [stop]
+[INFO] [ghostText] [2023-06-14T18:37:58.084Z] Filtered out solution matching next line
+[INFO] [streamChoices] [2023-06-14T18:37:58.086Z] request done: headerRequestId: [96370738-3343-4575-86b1-f4f9fcd0a943] model deployment ID: [x3096f9ec1aeb]
+[INFO] [default] [2023-06-14T18:37:59.132Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-06-14T18:37:59.489Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 356 ms
+[INFO] [streamChoices] [2023-06-14T18:37:59.493Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-06-14T18:37:59.499Z] request done: headerRequestId: [cd856944-da4c-4df1-801d-ae55513e287f] model deployment ID: [x3096f9ec1aeb]
+[INFO] [default] [2023-06-14T18:38:00.228Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-06-14T18:38:00.712Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 484 ms
+[INFO] [streamChoices] [2023-06-14T18:38:00.715Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-06-14T18:38:00.721Z] request done: headerRequestId: [745eaa62-9015-4003-8824-c4d8e6466e73] model deployment ID: [x3096f9ec1aeb]
+[INFO] [ghostText] [2023-06-14T18:38:04.812Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-06-14T18:38:05.509Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-06-14T18:38:06.554Z] Found inline suggestions locally
+[INFO] [ghostText] [2023-06-14T18:38:36.664Z] Cancelled after extractPrompt
+[INFO] [default] [2023-06-14T18:38:36.745Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-06-14T18:38:37.394Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 648 ms
+[INFO] [streamChoices] [2023-06-14T18:38:37.397Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-06-14T18:38:37.401Z] request done: headerRequestId: [7aba42cb-727b-49df-a5e8-220ba07df507] model deployment ID: [x3096f9ec1aeb]
+[INFO] [default] [2023-06-14T18:39:19.602Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-06-14T18:39:19.917Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 314 ms
+[INFO] [streamChoices] [2023-06-14T18:39:19.922Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-06-14T18:39:19.923Z] request done: headerRequestId: [610b776a-3e49-4034-b22e-45ec6df7a38d] model deployment ID: [x3096f9ec1aeb]
+[INFO] [default] [2023-06-14T18:39:22.508Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+[INFO] [default] [2023-06-14T18:39:22.835Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 326 ms
+[INFO] [streamChoices] [2023-06-14T18:39:22.839Z] solution 0 returned. finish reason: [stop]
+[INFO] [streamChoices] [2023-06-14T18:39:22.840Z] request done: headerRequestId: [274cb9ff-6a6f-48c0-9153-243bf0536012] model deployment ID: [x3096f9ec1aeb]
+[INFO] [copilotIgnore] [2023-06-14T18:56:58.965Z] inactive

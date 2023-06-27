@@ -1,0 +1,13 @@
+apiVersion: cilium.io/v1
+kind: CiliumNetworkPolicy
+metadata:
+  name: allow-all-nodes
+spec:
+  ingress:
+    - fromEndpoints:
+        matchLabels:
+          k8s:io.cilium/global-service: "true"
+  egress:
+    - toEndpoints:
+        matchLabels:
+          k8s:io.cilium/global-service: "true"

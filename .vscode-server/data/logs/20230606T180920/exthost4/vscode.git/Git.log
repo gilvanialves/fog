@@ -1,0 +1,186 @@
+2023-06-06 19:49:37.304 [info] Log level: Info
+2023-06-06 19:49:37.304 [info] Validating found git in: "git"
+2023-06-06 19:49:37.304 [info] Using git "2.34.1" from "git"
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [597ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [10ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [3ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [1ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 19:49:37.304 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-06-06 19:49:37.304 [info] Open repository: /home/cti/multus-cni
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [12ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git config --get commit.template [9ms]
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [13ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.304 [info] > git rev-parse --show-toplevel [1ms]
+2023-06-06 19:49:37.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 19:49:37.571 [info] > git status -z -uall [324ms]
+2023-06-06 19:49:37.602 [info] > git config --get commit.template [3ms]
+2023-06-06 19:49:37.618 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-06-06 19:49:37.745 [info] > git fetch [587ms]
+2023-06-06 19:49:37.759 [info] > git status -z -uall [130ms] (cancelled)
+2023-06-06 19:49:37.761 [info] > git config --get commit.template [3ms]
+2023-06-06 19:49:37.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-06-06 19:49:37.835 [info] > git check-ignore -v -z --stdin [3ms]
+2023-06-06 19:49:38.123 [info] > git status -z -uall [338ms]
+2023-06-06 19:59:37.684 [info] > git fetch [600ms]
+2023-06-06 19:59:37.708 [info] > git config --get commit.template [12ms]
+2023-06-06 19:59:37.709 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-06-06 19:59:38.059 [info] > git status -z -uall [340ms]
+2023-06-06 20:02:07.333 [info] > git rev-parse --show-toplevel [265ms]
+2023-06-06 20:02:07.333 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:02:48.655 [info] > git fetch [580ms]
+2023-06-06 20:02:48.690 [info] > git config --get commit.template [17ms]
+2023-06-06 20:02:48.691 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-06-06 20:02:49.029 [info] > git status -z -uall [321ms]
+2023-06-06 20:02:50.492 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 20:02:50.492 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:03:09.180 [info] > git rev-parse --show-toplevel [3ms]
+2023-06-06 20:03:09.180 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:03:09.708 [info] > git rev-parse --show-toplevel [3ms]
+2023-06-06 20:03:09.708 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:03:12.915 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 20:03:12.915 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:03:13.255 [info] > git rev-parse --show-toplevel [3ms]
+2023-06-06 20:03:13.255 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:03:14.182 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 20:03:14.182 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:14:07.784 [info] > git fetch [587ms]
+2023-06-06 20:14:07.817 [info] > git config --get commit.template [16ms]
+2023-06-06 20:14:07.818 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-06-06 20:14:08.155 [info] > git status -z -uall [322ms]
+2023-06-06 20:14:09.864 [info] > git check-ignore -v -z --stdin [5ms]
+2023-06-06 20:14:11.590 [info] > git check-ignore -v -z --stdin [3ms]
+2023-06-06 20:14:12.098 [info] > git show --textconv :deployments/multus-daemonset.yml [20ms]
+2023-06-06 20:14:12.098 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:14:12.119 [info] > git cat-file -s ab626a666ff639e5731e83a8eda9e1ae029463e3 [5ms]
+2023-06-06 20:23:25.927 [info] > git fetch [582ms]
+2023-06-06 20:23:25.961 [info] > git config --get commit.template [17ms]
+2023-06-06 20:23:25.962 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-06-06 20:23:26.324 [info] > git status -z -uall [347ms]
+2023-06-06 20:25:29.240 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:25:29.257 [info] > git cat-file -s ab626a666ff639e5731e83a8eda9e1ae029463e3 [2ms]
+2023-06-06 20:25:29.341 [info] > git show --textconv :deployments/multus-daemonset.yml [4ms]
+2023-06-06 20:29:20.418 [info] > git fetch [687ms]
+2023-06-06 20:29:20.450 [info] > git config --get commit.template [16ms]
+2023-06-06 20:29:20.451 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-06-06 20:29:20.788 [info] > git status -z -uall [322ms]
+2023-06-06 20:29:21.506 [info] > git show --textconv :deployments/multus-daemonset-thick.yml [16ms]
+2023-06-06 20:29:21.508 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset-thick.yml [3ms]
+2023-06-06 20:29:21.526 [info] > git cat-file -s eaa92ece98e44cac9a363317043dfb2f4fe3d69e [2ms]
+2023-06-06 20:29:21.787 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset-thick.yml [3ms]
+2023-06-06 20:29:21.803 [info] > git cat-file -s eaa92ece98e44cac9a363317043dfb2f4fe3d69e [2ms]
+2023-06-06 20:29:21.890 [info] > git show --textconv :deployments/multus-daemonset-thick.yml [3ms]
+2023-06-06 20:29:39.765 [info] > git show --textconv :deployments/multus-daemonset.yml [17ms]
+2023-06-06 20:29:39.767 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset.yml [4ms]
+2023-06-06 20:29:39.783 [info] > git cat-file -s ab626a666ff639e5731e83a8eda9e1ae029463e3 [2ms]
+2023-06-06 20:30:13.466 [info] > git show --textconv :deployments/multus-daemonset-thick.yml [18ms]
+2023-06-06 20:30:13.468 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset-thick.yml [5ms]
+2023-06-06 20:30:13.487 [info] > git cat-file -s eaa92ece98e44cac9a363317043dfb2f4fe3d69e [2ms]
+2023-06-06 20:30:57.093 [info] > git show --textconv :deployments/multus-daemonset.yml [19ms]
+2023-06-06 20:30:57.096 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset.yml [4ms]
+2023-06-06 20:30:57.114 [info] > git cat-file -s ab626a666ff639e5731e83a8eda9e1ae029463e3 [3ms]
+2023-06-06 20:31:57.551 [info] > git show --textconv :deployments/multus-daemonset-crio.yml [17ms]
+2023-06-06 20:31:57.553 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset-crio.yml [3ms]
+2023-06-06 20:31:57.570 [info] > git cat-file -s cbe34a0ab7138c3e6747d4ee98acd77875b6e502 [2ms]
+2023-06-06 20:31:58.101 [info] > git show --textconv :deployments/multus-daemonset.yml [16ms]
+2023-06-06 20:31:58.104 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:31:58.120 [info] > git cat-file -s ab626a666ff639e5731e83a8eda9e1ae029463e3 [2ms]
+2023-06-06 20:35:51.675 [info] > git fetch [1451ms]
+2023-06-06 20:35:51.707 [info] > git config --get commit.template [17ms]
+2023-06-06 20:35:51.708 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-06-06 20:35:51.742 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:35:51.758 [info] > git cat-file -s ab626a666ff639e5731e83a8eda9e1ae029463e3 [2ms]
+2023-06-06 20:35:51.854 [info] > git show --textconv :deployments/multus-daemonset.yml [7ms]
+2023-06-06 20:35:52.045 [info] > git status -z -uall [323ms]
+2023-06-06 20:35:53.048 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset.yml [2ms]
+2023-06-06 20:35:53.064 [info] > git cat-file -s ab626a666ff639e5731e83a8eda9e1ae029463e3 [2ms]
+2023-06-06 20:35:53.147 [info] > git show --textconv :deployments/multus-daemonset.yml [4ms]
+2023-06-06 20:40:12.952 [info] > git fetch [582ms]
+2023-06-06 20:40:12.983 [info] > git config --get commit.template [16ms]
+2023-06-06 20:40:12.984 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-06-06 20:40:13.322 [info] > git status -z -uall [321ms]
+2023-06-06 20:40:14.320 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:40:14.337 [info] > git cat-file -s ab626a666ff639e5731e83a8eda9e1ae029463e3 [2ms]
+2023-06-06 20:40:14.422 [info] > git show --textconv :deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:41:01.694 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 20:41:01.694 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:41:03.667 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 20:41:03.667 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:42:44.934 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 20:42:44.935 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:44:25.891 [info] > git fetch [587ms]
+2023-06-06 20:44:25.927 [info] > git config --get commit.template [17ms]
+2023-06-06 20:44:25.928 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-06-06 20:44:26.296 [info] > git status -z -uall [352ms]
+2023-06-06 20:44:27.211 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset.yml [1ms]
+2023-06-06 20:44:27.230 [info] > git cat-file -s ab626a666ff639e5731e83a8eda9e1ae029463e3 [2ms]
+2023-06-06 20:44:27.324 [info] > git show --textconv :deployments/multus-daemonset.yml [4ms]
+2023-06-06 20:47:35.441 [info] > git fetch [582ms]
+2023-06-06 20:47:35.474 [info] > git config --get commit.template [16ms]
+2023-06-06 20:47:35.475 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-06-06 20:47:35.824 [info] > git status -z -uall [332ms]
+2023-06-06 20:47:36.809 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:47:36.827 [info] > git cat-file -s ab626a666ff639e5731e83a8eda9e1ae029463e3 [3ms]
+2023-06-06 20:47:36.912 [info] > git show --textconv :deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:50:31.304 [info] > git rev-parse --show-toplevel [3ms]
+2023-06-06 20:50:31.304 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:50:35.518 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 20:50:35.518 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:50:36.451 [info] > git fetch [607ms]
+2023-06-06 20:50:36.486 [info] > git config --get commit.template [17ms]
+2023-06-06 20:50:36.487 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-06-06 20:50:36.849 [info] > git status -z -uall [345ms]
+2023-06-06 20:50:37.828 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:50:37.844 [info] > git cat-file -s ab626a666ff639e5731e83a8eda9e1ae029463e3 [2ms]
+2023-06-06 20:50:37.928 [info] > git show --textconv :deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:50:46.608 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 20:50:46.608 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:50:49.629 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 20:50:49.629 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:52:59.196 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 20:52:59.196 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:53:06.663 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 20:53:06.663 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:53:19.116 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-06 20:53:19.116 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-06 20:53:37.461 [info] > git fetch [589ms]
+2023-06-06 20:53:37.497 [info] > git config --get commit.template [17ms]
+2023-06-06 20:53:37.498 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-06-06 20:53:37.833 [info] > git status -z -uall [319ms]
+2023-06-06 20:53:38.832 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:53:38.850 [info] > git cat-file -s ab626a666ff639e5731e83a8eda9e1ae029463e3 [2ms]
+2023-06-06 20:53:38.936 [info] > git show --textconv :deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:56:39.564 [info] > git fetch [596ms]
+2023-06-06 20:56:39.599 [info] > git config --get commit.template [18ms]
+2023-06-06 20:56:39.600 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-06-06 20:56:39.936 [info] > git status -z -uall [319ms]
+2023-06-06 20:56:40.931 [info] > git ls-files --stage -- /home/cti/multus-cni/deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:56:40.949 [info] > git cat-file -s ab626a666ff639e5731e83a8eda9e1ae029463e3 [2ms]
+2023-06-06 20:56:41.034 [info] > git show --textconv :deployments/multus-daemonset.yml [3ms]
+2023-06-06 20:56:55.542 [info] > git rev-parse --show-toplevel [1ms]
+2023-06-06 20:56:55.543 [info] fatal: not a git repository (or any of the parent directories): .git

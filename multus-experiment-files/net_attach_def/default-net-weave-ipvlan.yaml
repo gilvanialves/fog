@@ -1,0 +1,29 @@
+apiVersion: 'k8s.cni.cncf.io/v1'
+kind: NetworkAttachmentDefinition
+metadata:
+  name: weave-ipvlan
+spec:
+  config: |
+    {
+      "cniVersion": "0.3.0",
+      "name": "weave",
+      "plugins": [
+        {
+          "type": "weave-net",
+          "hairpinMode": true
+        },
+        {
+          "type": "ipvlan",
+          "mode": "l2",
+          "master": "weave",
+          "ipam": {
+            "type": "weave-ipam"
+          }
+        },
+        {
+          "type": "portmap",
+          "capabilities": {"portMappings": true},
+          "snat": true
+        }
+      ]
+    }

@@ -1,0 +1,28 @@
+apiVersion: "k8s.cni.cncf.io/v1"
+kind: NetworkAttachmentDefinition
+metadata:
+  name: weave
+spec:
+  config: '{
+    "name": "weave-bridge",
+    "cniVersion": "0.3.0",
+    "type": "ipvlan",
+    "bridge": "weave",
+    "isDefaultGateway": true,
+    "hairpinMode": true,
+    "ipam": {
+      "type": "host-local",
+      "ranges": [
+        [
+          {
+            "subnet": "192.168.11.0/24"
+          }
+        ]
+      ],
+      "routes": [
+        {
+          "dst": "0.0.0.0/0"
+        }
+      ]
+    }
+  }'

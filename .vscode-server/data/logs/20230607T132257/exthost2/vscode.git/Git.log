@@ -1,0 +1,46 @@
+2023-06-07 18:29:05.596 [info] Log level: Info
+2023-06-07 18:29:05.596 [info] Validating found git in: "git"
+2023-06-07 18:29:05.596 [info] Using git "2.34.1" from "git"
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [754ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [3ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [3ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [2ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [20ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [3ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [1ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [1ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [14ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [4ms]
+2023-06-07 18:29:05.596 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-06-07 18:29:05.596 [info] Open repository: /home/cti/multus-cni
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [15ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git config --get commit.template [14ms]
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [4ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [22ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git rev-parse --show-toplevel [3ms]
+2023-06-07 18:29:05.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-07 18:29:05.596 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2023-06-07 18:29:05.983 [info] > git status -z -uall [397ms]
+2023-06-07 18:29:06.012 [info] > git config --get commit.template [3ms]
+2023-06-07 18:29:06.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-06-07 18:29:06.362 [info] > git status -z -uall [324ms]
+2023-06-07 18:29:18.343 [info] > git fetch [592ms]
+2023-06-07 18:29:18.376 [info] > git config --get commit.template [17ms]
+2023-06-07 18:29:18.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-06-07 18:29:18.720 [info] > git status -z -uall [328ms]

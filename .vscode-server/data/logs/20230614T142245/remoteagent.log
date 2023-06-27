@@ -1,0 +1,31 @@
+2023-06-14 14:22:45.280 [info] 
+
+
+
+
+2023-06-14 14:22:45.334 [info] Extension host agent started.
+2023-06-14 14:22:45.549 [info] [127.0.0.1][d93588e7][ManagementConnection] New connection established.
+2023-06-14 14:22:45.680 [info] [127.0.0.1][888418ec][ExtensionHostConnection] New connection established.
+2023-06-14 14:22:45.805 [info] [127.0.0.1][888418ec][ExtensionHostConnection] <16032> Launched Extension Host Process.
+2023-06-14 14:22:50.949 [info] Getting Manifest... github.copilot
+2023-06-14 14:22:51.126 [info] Installing extension: github.copilot
+2023-06-14 14:23:05.708 [info] Extension signature is verified: github.copilot
+2023-06-14 14:23:11.215 [info] Extracted extension to /home/cti/.vscode-server/extensions/.a343c798-a478-4075-bffc-c51488f8458f: github.copilot
+2023-06-14 14:23:11.223 [info] Renamed to /home/cti/.vscode-server/extensions/github.copilot-1.89.156
+2023-06-14 14:23:11.227 [info] Extracting extension completed. github.copilot
+2023-06-14 14:23:11.243 [info] Extension installed successfully: github.copilot
+2023-06-14 14:23:11.251 [info] Marked extension as uninstalled github.copilot-1.88.132
+2023-06-14 14:27:45.336 [info] New EH opened, aborting shutdown
+2023-06-14 15:16:33.838 [info] [127.0.0.1][d93588e7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-14 15:16:33.973 [info] [127.0.0.1][888418ec][ExtensionHostConnection] <16032> Extension Host Process exited with code: 0, signal: null.
+2023-06-14 15:16:33.974 [info] Last EH closed, waiting before shutting down
+2023-06-14 15:21:12.348 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-06-14 15:21:12.349 [info] Cancelling previous shutdown timeout
+2023-06-14 15:21:12.669 [info] [127.0.0.1][3b658190][ManagementConnection] New connection established.
+2023-06-14 15:21:12.801 [info] [127.0.0.1][365b4fc3][ExtensionHostConnection] New connection established.
+2023-06-14 15:21:12.815 [info] [127.0.0.1][365b4fc3][ExtensionHostConnection] <46533> Launched Extension Host Process.
+2023-06-14 15:26:12.350 [info] New EH opened, aborting shutdown
+2023-06-14 15:51:21.786 [info] [127.0.0.1][3b658190][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-14 15:51:21.909 [info] [127.0.0.1][365b4fc3][ExtensionHostConnection] <46533> Extension Host Process exited with code: 0, signal: null.
+2023-06-14 15:51:21.910 [info] Last EH closed, waiting before shutting down
+2023-06-14 15:56:21.911 [info] Last EH closed, shutting down

@@ -1,0 +1,4 @@
+event-generator
+falco
+falco-exporter
+falcosidekick

@@ -1,0 +1,32 @@
+apiVersion: cilium.io/v2
+kind: CiliumNetworkPolicy
+metadata:
+  name: allow-access-to-nodes
+spec:
+  ingress:
+    - fromEndpoints:
+        matchLabels:
+          beta.kubernetes.io/arch: amd64
+          beta.kubernetes.io/os: linux
+          kubernetes.io/arch: amd64
+          kubernetes.io/hostname: falcao
+          kubernetes.io/os: linux
+    - fromEndpoints:
+        matchLabels:
+          beta.kubernetes.io/arch: amd64
+          beta.kubernetes.io/os: linux
+          kubernetes.io/arch: amd64
+          kubernetes.io/hostname: garca
+          kubernetes.io/os: linux
+    - fromEndpoints:
+        matchLabels:
+          beta.kubernetes.io/arch: amd64
+          beta.kubernetes.io/os: linux
+          kubernetes.io/arch: amd64
+          kubernetes.io/hostname: gaviao
+          kubernetes.io/os: linux
+          node-role.kubernetes.io/control-plane: ""
+          node.kubernetes.io/exclude-from-external-load-balancers: ""
+  egress:
+    - toEndpoints:
+        matchLabels: {}

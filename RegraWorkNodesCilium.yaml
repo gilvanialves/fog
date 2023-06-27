@@ -1,0 +1,11 @@
+apiVersion: cilium.io/v1
+kind: CiliumNetworkPolicy
+metadata:
+  name: allow-all
+spec:
+  ingress:
+    - fromEndpoints:
+        matchLabels: {}
+  egress:
+    - toEndpoints:
+        matchLabels: {}

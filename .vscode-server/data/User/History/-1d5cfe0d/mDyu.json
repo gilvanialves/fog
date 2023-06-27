@@ -1,0 +1,171 @@
+{
+  // Editor
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.emptyWindow": true,
+  "editor.inlayHints.fontSize": 14,
+  "editor.fontFamily": "JetBrains Mono, Fira Code, monospace",
+  "editor.fontWeight": "500",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.cursorBlinking": "smooth",
+  "editor.smoothScrolling": true,
+  "editor.suggestSelection": "first",
+  "editor.renderLineHighlight": "gutter",
+  "editor.parameterHints.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": false,
+  "editor.accessibilitySupport": "off",
+  "editor.lineHeight": 26,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.rulers": [90],
+  "editor.wordWrap": "on",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.inlayHints.fontFamily": "Fira Code, monospace",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.linkedEditing": true,
+  "editor.largeFileOptimizations": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.preferredDarkColorTheme": "Omni",
+  "workbench.startupEditor": "none",
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.colorTheme": "Omni",
+  "workbench.productIconTheme": "material-product-icons",
+
+  // Terminal
+  "terminal.integrated.fontFamily": "MesloLGM NF, JetBrains Mono, Fira Code,monospace",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.tabs.showActions": "always",
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.env.windows": {},
+
+  // Explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock",
+    "index.ts": "${dirname}.tsx, ${dirname}.ts"
+  },
+
+  // Window
+  "window.titleBarStyle": "custom",
+  "window.commandCenter": true,
+  "window.restoreWindows": "none",
+
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.enableCommitSigning": true,
+
+  // JS/TS
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.suggest.autoImports": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.suggest.autoImports": true,
+  "typescript.tsserver.log": "off",
+
+  // Emmet
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // Files
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/node_modules": false
+  },
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.bu": "yaml",
+    "*.ign": "json"
+  },
+
+  // Extensions
+
+  // GitLens e GitHub
+  "gitlens.views.repositories.avatars": true,
+  "github.gitProtocol": "ssh",
+
+  // IntelliCode
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // YAML
+  "redhat.telemetry.enabled": true,
+  "remote.SSH.remotePlatform": {
+    "Pirarucu": "linux",
+    "Amazonas": "linux",
+    "Gaviao": "linux"
+  },
+
+  // CSpell
+  "cSpell.language": "en,pt-BR",
+  "cSpell.userWords": [
+    "autofetch",
+    "Intelli",
+    "Meslo",
+    "Omni",
+    "podman",
+    "redhat",
+    "sequelizerc",
+    "stylelintrc"
+  ],
+
+  // Prettier
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 90,
+
+  // Material Icon Theme
+  "material-icon-theme.files.associations": {
+    "Router.tsx": "routing"
+  },
+  "material-icon-theme.activeIconPack": "react",
+
+  // Error Lens
+  "errorLens.excludeBySource": ["ts(6133)", "eslint(@typescript-eslint/no-unused-vars)"],
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path.windows": "C:\\Users\\fabio\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vscode-kubernetes.minikube-path.windows": "C:\\Users\\fabio\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+  },
+  "window.zoomLevel": 1
+}
